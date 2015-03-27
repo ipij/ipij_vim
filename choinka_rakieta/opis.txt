@@ -1,0 +1,7 @@
+Napisz:
+
+make choinka
+
+lub
+
+make rakieta

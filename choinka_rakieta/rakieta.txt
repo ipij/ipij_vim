@@ -1,0 +1,16 @@
+                                       *
+
+
+Sposób zrobienia rakiety:
+1. Stań w pierwszej linii używając "1G" (ważna jest wielka litera "G", co znaczy: skok do podanej linii, czyli do pierwszej linii)
+2. Dziesięć razy naciśnij <F1>
+3. Naciśnij "5k", aby stanąć na środku trójkąta
+4. Skopiuj bieżący wiersz do schowka przez naciśnięcie "yy"
+5. Wstaw wiersz ze schowka siedem razy przez naciśnięcie "ppppppp" lub "7p"
+
+Sposób animowania rakiety:
+1. Dopisz 40 pustych linii przed choinką
+2. Dopisz 40 pustych linii po choince
+3. Wyjdź z trybu wstawiania do trybu komend za pomocą klawisza Esc
+3. Stań w pierwszej linii używając "1G" (ważna jest wielka litera "G", co znaczy: skok do podanej linii)
+4. Przytrzymaj przez dłuższy czas klawisz <F2>, który powinien animować rakietę

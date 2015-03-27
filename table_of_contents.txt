@@ -1,0 +1,44 @@
+1.  Wstęp (2015.03.26)
+    1.1.  vim - praktyczne ciekawostki
+    1.2.  Piotr Kasprzyk, http://ciri.pl
+    1.3.  zarys środowiska: putty + vim + wygodna klawiatura (autorepeat) + mysz
+    1.4.  kilka dróg znajdowania/wpisywania tekstu, wybrać najmniej klawiszy i najmniej problemów z literówkami
+2.  Rozwinięcie
+    2.1.  Ciekawa funkcjonalność edytora
+        2.1.1.  hjkl, powtarzanie n razy, o O w b e
+        2.1.2.  yiw, yiW - zaznaczanie słowa lub szerzej rozumianego słowa
+        2.1.3.  f t F T - szybki ruch w linii
+        2.1.4.  ma, `a - marks
+        2.1.5.  * # - szukanie bieżącego słowa
+        2.1.6.  % - przeskok na dopasowany nawias
+        2.1.7.  wklejanie z zachowaniem wcięcia - ]p
+        2.1.8.  mouse - dwa tryby pracy: :set mouse=a :set mouse=
+        2.1.9.  split window
+            2.1.9.1.  rozszczepianie :split :vsplit
+            2.1.9.2.  użycie myszy do rozmieszczenia okien
+        2.1.10.  przemieszczanie kursora, ekran w miejscu: H M L
+        2.1.11.  przemieszczanie ekranu, kursor w miejscu: zs ze zt zb zz Ctrl-E Ctrl-Y
+            2.1.11.1.  filtrowanie zaznaczonych linii przez zewnętrzny program: :!wc
+        2.1.12.  time machine :earlier :later (history tree, not linear)
+    2.2.  Makrodefinicje
+        2.2.1.  qq - rozpoczynanie makra
+            2.2.1.1.  kod cykliczny generowany do testowania algorytmów z grafiki: :map <F1> yyp0x$p
+        2.2.2.  przykłady użycia makrodefinicji
+            2.2.2.1.  wybór linii - np. co drugiej
+            2.2.2.2.  łamanie długich linii do maksymalnie 80 znaków w linii (użycie znaku pipe - |)
+            2.2.2.3.  makro ,h - komentarz
+            2.2.2.4.  wycentrowanie napisu === FUTURE === na 78 znakach
+            2.2.2.5.  rakieta, choinka
+            2.2.2.6.  Ctrl-A, Ctrl-X, także dla liter przez :set nf=alpha
+                2.2.2.6.1.  diamentowa strzała na literkach
+    2.3.  Praktyka pisania programów
+        2.3.1.  zaznaczanie kilku-, kilkunastu wierszy metodą zgadywania ich liczby
+        2.3.2.  git status > /tmp/1; vi /tmp/1; . /tmp/1
+        2.3.3.  V (line-visual), F4 - if 1/then/else
+        2.3.4.  Generowanie wielu zmiennych dla napisów (grep-friendly) w kształcie abc_1_def
+        2.3.5.  (scratch pad), bufor tekstowy na manipulacje tekstem przeklejanym np. z WWW - szybkie wyjście przez 99u
+        2.3.6.  vim python scripts
+            2.3.6.1.  wstawianie daty, rejestracja czasu pracy
+            2.3.6.2.  przeskoki po równym wcięciu
+            2.3.6.3.  wyskoki z bieżącego wcięcia Num 2, 3
+3.  Zakończenie

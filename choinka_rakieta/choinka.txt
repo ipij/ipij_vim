@@ -1,0 +1,8 @@
+                                       *
+
+Sposób zrobienia choinki:
+1. Stań w pierwszej linii używając "1G" (ważna jest wielka litera "G", co znaczy: skok do podanej linii)
+2. pięć razy naciśnij <F1>
+3. kolejne pięć razy naciśnij <F1>
+4. naciśnij "5k", aby stanąć na środku trójkąta
+5. kilka razy wróć do punktu 3.
